@@ -205,6 +205,31 @@
         border-radius: 12px;
         border: none;
       }
+      
+      .photo-scroll {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        gap: 20px;
+        padding: 20px;
+        white-space: nowrap;
+      }
+
+      .photo-item {
+        flex: 0 0 auto;
+        width: 400px;
+        color: #00A0EC;
+        font-family: "Kite One", sans-serif;
+        font-size: 2em;
+        max-width: 37.5em;
+        text-align: center;
+      }
+
+      .photo-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+      }
 
       .nav-bar {
         position: fixed;
@@ -273,9 +298,9 @@
         </div>
       </div>
       
-      
-      
-      
+      <div class="pdf-container">
+        <embed src="Best Story Ever V2 (SMALL).pdf" type="application/pdf" class="pdf-viewer">
+      </div>
       
       
     </div>
